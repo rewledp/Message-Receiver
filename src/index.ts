@@ -1,2 +1,4 @@
-import rce from "./input/rce";
-export { rce };
+export default function () {
+  alert(document.cookie);
+  alert("I got ya account buddy!");
+}
